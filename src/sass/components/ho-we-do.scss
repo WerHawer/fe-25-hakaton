@@ -1,0 +1,46 @@
+.how-we-do {
+    width: 280px;
+    margin: 0 auto;
+    @include nameSection;
+    &list {
+        display: block;
+    }
+    &__discription {
+        width: 190px;
+    }
+    &__planet::before {
+        @include beforeHowWeDo;
+        background-image: url(../../images/1.png);
+        background-color: #feefd4;
+    }
+    &__hand::before {
+        @include beforeHowWeDo;
+        background-image: url(../../images/2.png);
+        background-color: #ffe0d6;
+    }
+    &__peace::before {
+        @include beforeHowWeDo;
+        background-image: url(../../images/3.png);
+        background-color: #e6dcf9;
+    }
+    &__money::before {
+        @include beforeHowWeDo;
+        background-image: url(../../images/4.png);
+        background-color: #cceeec;
+    }
+    &__lamp::before {
+        @include beforeHowWeDo;
+        background-image: url(../../images/5.png);
+        background-color: #e6dcf9;
+    }
+    &__paper::before {
+        @include beforeHowWeDo;
+        background-image: url(../../images/6.png);
+        background-color: #ffe0d6;
+    }
+    &__goal::before {
+        @include beforeHowWeDo;
+        background-image: url(../../images/7.png);
+        background-color: #feefd4;
+    }
+}
