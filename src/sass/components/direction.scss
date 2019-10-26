@@ -1,27 +1,7 @@
 .direction {
     width: 280px;
     margin: 0 auto;
-    &__name {
-        display: flex;
-        font-size: 20px;
-        font-family: "Open Sans";
-        color: rgb(34, 34, 34);
-        font-weight: bold;
-        text-transform: uppercase;
-        align-items: center;
-        &::before {
-            content: '';
-            display: inline-block;
-            width: 30px;
-            height: 30px;
-            border-radius: 50%;
-            background: url(../../images/layer7.png);
-            background-color: #fcae26;
-            background-repeat: no-repeat;
-            background-position: center;
-            margin-right: 10px;
-        }
-    }
+    @include nameSection;
 }
 
 .details {

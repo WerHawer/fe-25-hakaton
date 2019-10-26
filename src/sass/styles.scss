@@ -4,7 +4,9 @@
 
 @import './normalize';
 @import 'helpers/variables.scss';
+@import 'helpers/mixin.scss';
 @import './base.scss';
 @import 'components/nav-bar.scss';
 @import 'components/info.scss';
 @import 'components/direction.scss';
+@import 'components/ho-we-do.scss';
