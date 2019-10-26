@@ -2,6 +2,8 @@
   margin: 0 auto;
   height: 560px;
   width: 320px;
+  position: relative;
+  margin-bottom: 34px;
   &__background {
     display: block;
     height: 560px;
@@ -17,7 +19,8 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 420px;
+    height: 410px;
+    margin-bottom: 60px;
   }
   &__menu {
     padding-top: 20px;
@@ -25,21 +28,30 @@
     justify-content: space-between;
   }
   &__burger {
-    display: block;
+    background: url(../../images/burger.png);
     width: 28px;
     height: 19px;
+  }
+  &__right-button {
+    display: block;
+
     border-style: none;
     background-color: transparent;
     margin: 0;
     padding: 0;
-    background: url(../../images/buger.png);
     background-position: center;
     background-size: cover;
   }
   &__arrows {
     width: 20px;
     height: 21px;
-    text-align: center;
+    background-color: transparent;
+    padding: 0;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
     &--image {
       background-image: url(../../images/Scroll-down.png);
       background-size: cover;
