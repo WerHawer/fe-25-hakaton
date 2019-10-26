@@ -5,6 +5,6 @@
 @import './normalize';
 @import 'helpers/variables.scss';
 @import './base.scss';
-// COMPONENTS
+@import 'components/nav-bar.scss';
 @import 'components/info.scss';
-@import 'components/info.scss'
+@import 'components/direction.scss';

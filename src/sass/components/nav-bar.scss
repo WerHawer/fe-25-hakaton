@@ -1,0 +1,22 @@
+.nav-bar {
+  margin: 0 auto;
+  height: 600px;
+  width: 320px;
+
+  &__wrapper {
+    height: 600px;
+    width: 280px;
+    display: block;
+    margin: 0 auto;
+  }
+  &__background {
+    display: block;
+    background-image: url(../../images/img.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+      background: url(images/img@2x.jpg) no-repeat center;
+    }
+  }
+}
