@@ -1,0 +1,12 @@
+.nav-bar-modal {
+  display: none;
+  position: absolute;
+  width: 320px;
+  height: 560px;
+  background-color: #824fe3;
+  top: 0;
+  left: 0;
+  &:active .nav-bar-modal {
+    display: block;
+  }
+}

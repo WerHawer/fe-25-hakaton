@@ -1,22 +1,51 @@
 .nav-bar {
   margin: 0 auto;
-  height: 600px;
+  height: 560px;
   width: 320px;
-
-  &__wrapper {
-    height: 600px;
-    width: 280px;
-    display: block;
-    margin: 0 auto;
-  }
   &__background {
     display: block;
+    height: 560px;
     background-image: url(../../images/img.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
       background: url(images/img@2x.jpg) no-repeat center;
+    }
+  }
+  &__container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 420px;
+  }
+  &__menu {
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  &__burger {
+    display: block;
+    width: 28px;
+    height: 19px;
+    border-style: none;
+    background-color: transparent;
+    margin: 0;
+    padding: 0;
+    background: url(../../images/buger.png);
+    background-position: center;
+    background-size: cover;
+  }
+  &__arrows {
+    width: 20px;
+    height: 21px;
+    text-align: center;
+    &--image {
+      background-image: url(../../images/Scroll-down.png);
+      background-size: cover;
+      background-position: center;
+      width: 13px;
+      height: 9px;
     }
   }
 }
