@@ -1,60 +1,57 @@
 .nav-bar-modal {
-  display: none;
-  position: absolute;
-  width: 320px;
-  height: 560px;
-  background-color: #824fe3;
-  top: 0;
-  left: 0;
-  color: $h1-font-color;
-  // &:hover .nav-bar__burger {
-  //   display: block;
-  // }
-  &__open {
-    display: block;
-  }
-  &__close {
-    background-image: url(../../images/close.png);
-    width: 24px;
-    height: 24px;
-  }
-  &__paragraph {
-    display: block;
-    background-color: #fcae26;
-    width: 190px;
-    height: 40px;
-    border-radius: 5px;
-    text-align: center;
-    font-family: $h1-font;
-    font-size: 16px;
-    line-height: 38px;
-    font-weight: bold;
-    margin: 0;
-    padding: 0;
-  }
-  &__list {
-    height: 250px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-  }
-  &__text {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 330px;
-    margin-top: 100px;
-  }
-  &__link {
-    font-family: $main-font-article;
-    font-size: 28px;
-    font-weight: bold;
+    display: none;
+    position: absolute;
+    width: 320px;
+    height: 560px;
+    background-color: #824fe3;
+    top: 0;
+    left: 0;
     color: $h1-font-color;
-    border-bottom: 2px solid transparent;
-    &:hover {
-      border-bottom: 2px solid #fcae26;
+    &__open {
+        display: block;
     }
-  }
+    &__close {
+        background-image: url(../../images/close.png);
+        width: 24px;
+        height: 24px;
+    }
+    &__paragraph {
+        display: block;
+        background-color: #fcae26;
+        width: 190px;
+        height: 40px;
+        border-radius: 5px;
+        text-align: center;
+        font-family: $h1-font;
+        font-size: 16px;
+        line-height: 38px;
+        font-weight: bold;
+        margin: 0;
+        padding: 0;
+    }
+    &__list {
+        height: 250px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        height: 330px;
+        margin-top: 100px;
+    }
+    &__link {
+        font-family: $main-font-article;
+        font-size: 28px;
+        font-weight: bold;
+        color: $h1-font-color;
+        border-bottom: 2px solid transparent;
+        &:hover {
+            border-bottom: 2px solid #fcae26;
+        }
+    }
 }
