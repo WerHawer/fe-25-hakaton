@@ -946,6 +946,19 @@ body {
   margin: 0 auto;
 }
 
+.button-to-top {
+  position: -webkit-sticky;
+  position: sticky;
+  left: 80%;
+  bottom: 45px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: aqua;
+  cursor: pointer;
+  text-align: center;
+}
+
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .nav-bar__background {
     background: url(images/img@2x.jpg) no-repeat center;
