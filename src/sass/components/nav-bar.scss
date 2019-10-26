@@ -1,12 +1,12 @@
 .nav-bar {
     margin: 0 auto;
-    height: 560px;
+    height: 100vh;
     width: 100%;
     position: relative;
     margin-bottom: 34px;
     &__background {
         display: block;
-        height: 560px;
+        height: 100vh;
         background-image: url(../../images/img.jpg);
         background-position: center;
         background-repeat: no-repeat;
