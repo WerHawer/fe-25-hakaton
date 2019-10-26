@@ -48,12 +48,20 @@
           </p>
         </blockquote>
 
-        <img
-          srcset="images/mainImg.jpg 650w images/mainImg@2.jpg 1300w"
-          sizes="650px"
-          src="iimages/mainImg.jpg"
-          alt="our class image"
-        />
+        <div class="info__img-block">
+          <img
+            class="info__img"
+            srcset="
+              images/main-img-mobile.jpg    280w,
+              images/main-img-mobile@2x.jpg 560w
+            "
+            sizes="280px"
+            src="images/main-img-mobile.jpg"
+            alt="our class image"
+            height="321"
+            width="280"
+          />
+        </div>
       </section>
       <section class="direction"></section>
       <section class="how-we-do"></section>
