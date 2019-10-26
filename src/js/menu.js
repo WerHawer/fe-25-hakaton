@@ -9,8 +9,6 @@ function openMenu() {
     menu.classList.add('nav-bar-modal__open');
 }
 
-
-
 function closeMenu() {
     menu.classList.remove('nav-bar-modal__open');
 }
