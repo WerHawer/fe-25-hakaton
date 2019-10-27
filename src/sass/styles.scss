@@ -5,10 +5,13 @@
 @import './normalize';
 @import 'helpers/variables.scss';
 @import 'helpers/mixin.scss';
+@import 'helpers/media-tablet.scss';
+@import 'helpers/media-descktop.scss';
 @import './base.scss';
 @import 'components/nav-bar.scss';
 @import 'components/info.scss';
 @import 'components/direction.scss';
+@import 'components/details.scss';
 @import 'components/ho-we-do.scss';
 @import 'components/structure.scss';
 @import 'components/text-block.scss';
