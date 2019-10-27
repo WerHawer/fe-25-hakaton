@@ -68,3 +68,29 @@
         }
     }
 }
+
+.nav__menu {
+    display: none;
+    width: 80%;
+    align-items: center;
+    &--list {
+        display: flex;
+        justify-content: flex-end;
+        flex-grow: 1;
+    }
+    &--i {
+        font-family: $main-font-article;
+        font-weight: bold;
+        color: $h1-font-color;
+        border-bottom: 2px solid transparent;
+        padding-bottom: 10px;
+        margin-right: 35px;
+        &:hover {
+            border-bottom: 2px solid #fcae26;
+        }
+    }
+    &--link {
+        font-size: 18px;
+        color: $h1-font-color;
+    }
+}
