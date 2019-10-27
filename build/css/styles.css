@@ -494,7 +494,7 @@ body {
   color: #ffffff;
   border-bottom: 2px solid transparent;
   padding-bottom: 10px;
-  margin-right: 35px;
+  margin-right: 20px;
 }
 
 .nav__menu--i:hover {
@@ -1383,7 +1383,7 @@ body {
   }
 }
 
-@media (min-width: 1199px) {
+@media (min-width: 1299px) {
   .text-block {
     align-items: flex-start;
   }
