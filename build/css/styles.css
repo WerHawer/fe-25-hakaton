@@ -1384,14 +1384,10 @@ body {
 }
 
 @media (min-width: 1299px) {
-  .wrapper {
-    width: 100%;
-    max-width: 1300px;
-  }
-
   .text-block {
     align-items: flex-start;
     max-width: 1300px;
+    width: 100%;
   }
 
   .text-block__header {
@@ -1430,6 +1426,7 @@ body {
 
   .info {
     max-width: 1300px;
+    width: 100%;
   }
 
   .info__blockquote {
@@ -1452,6 +1449,7 @@ body {
 
   .direction {
     max-width: 1300px;
+    width: 100%;
   }
 
   .details-wrapper {
@@ -1521,6 +1519,7 @@ body {
 
   .structure {
     max-width: 1300px;
+    width: 100%;
   }
 
   .structure__ul {
