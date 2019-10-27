@@ -46,6 +46,9 @@
     .how-we-do {
         width: 100%;
         background-color: #fafafa;
+        background-image: url(../../images/BG.jpg);
+        background-position: center;
+        background-size: cover;
         margin-bottom: 115px;
         &__list {
             justify-content: flex-start;
@@ -70,9 +73,14 @@
     .structure {
         &__ul {
             flex-wrap: wrap;
+            max-width: none;
         }
         &__list {
-            width: 25%;
+            width: 24%;
+            min-width: 230px;
         }
+    }
+    .button-to-top {
+        display: none;
     }
 }
