@@ -427,7 +427,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 410px;
+  height: 75vh;
   margin-bottom: 60px;
 }
 
