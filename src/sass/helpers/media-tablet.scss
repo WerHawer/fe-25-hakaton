@@ -86,4 +86,11 @@
             width: 50%;
         }
     }
+    // Стезя Романа
+    .footer__adress {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 384px;
+    }
 }

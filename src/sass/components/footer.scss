@@ -3,7 +3,12 @@
 
   width: 100%;
   position: relative;
-  margin-bottom: 34px;
+  &__logo {
+    width: 100px;
+  }
+  &__logo-link {
+    display: block;
+  }
   &__background--top {
     background: #222222;
     height: 474px;
@@ -16,10 +21,12 @@
     height: 400px;
   }
   &__container {
+    margin: 0 auto;
     padding-left: 45px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    align-items: center;
   }
   &__adress {
     display: flex;
@@ -34,6 +41,8 @@
     }
   }
   &__tel-email {
+    margin: 0;
+    bottom: 0;
     display: flex;
     flex-direction: column;
     width: 150px;
