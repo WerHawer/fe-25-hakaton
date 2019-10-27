@@ -478,6 +478,36 @@ body {
   background-repeat: no-repeat;
 }
 
+.nav__menu {
+  display: none;
+  width: 80%;
+  align-items: center;
+}
+
+.nav__menu--list {
+  display: flex;
+  justify-content: flex-end;
+  flex-grow: 1;
+}
+
+.nav__menu--i {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: bold;
+  color: #ffffff;
+  border-bottom: 2px solid transparent;
+  padding-bottom: 10px;
+  margin-right: 20px;
+}
+
+.nav__menu--i:hover {
+  border-bottom: 2px solid #fcae26;
+}
+
+.nav__menu--link {
+  font-size: 18px;
+  color: #ffffff;
+}
+
 .info {
   width: 80%;
   margin: 0 auto;
@@ -952,6 +982,8 @@ body {
 }
 
 .text-block {
+  margin: 0 auto;
+  width: 88%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -966,6 +998,7 @@ body {
   line-height: 60px;
   margin: 0;
   padding: 0;
+  margin-bottom: 25px;
 }
 
 .text-block__under-header {
@@ -1041,7 +1074,11 @@ body {
 }
 
 .wrapper {
+<<<<<<< HEAD
   max-width: 100%;
+=======
+  width: 90%;
+>>>>>>> 173b813c07ba1ec96a642643e171b2c525f7fefc
   margin: 0 auto;
 }
 
@@ -1402,10 +1439,53 @@ body {
   }
 }
 
-@media (min-width: 1199px) {
-  .info-wrapper {
+@media (min-width: 1299px) {
+  .wrapper {
+    width: 100%;
+    max-width: 1300px;
+  }
+
+  .text-block {
+    align-items: flex-start;
+    max-width: 1300px;
+  }
+
+  .text-block__header {
+    font-size: 65px;
+    margin-bottom: 50px;
+  }
+
+  .text-block__under-header {
+    font-size: 25px;
+    width: 500px;
+    line-height: 35px;
+    text-align: left;
+    padding-left: 42px;
+  }
+
+  .text-block__text-text {
+    border-left: 3px solid #fcae26;
+    padding-left: 25px;
+  }
+
+  .nav-bar__co .nav-bar__burger {
+    display: none;
+  }
+
+  .nav__menu {
     display: flex;
     justify-content: space-between;
+  }
+
+  .info-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    max-width: 1300px;
+  }
+
+  .info {
+    max-width: 1300px;
   }
 
   .info__blockquote {
@@ -1426,8 +1506,14 @@ body {
     padding-right: 200px;
   }
 
+  .direction {
+    max-width: 1300px;
+  }
+
   .details-wrapper {
+    width: 100%;
     min-width: 1100px;
+    max-width: 1300px;
     flex-wrap: nowrap;
   }
 
@@ -1483,14 +1569,21 @@ body {
   }
 
   .how-we-do-wrapper {
-    width: 80%;
+    width: 100%;
+    max-width: 1300px;
     margin: 0 auto;
     padding-top: 115px;
+  }
+
+  .structure {
+    max-width: 1300px;
   }
 
   .structure__ul {
     flex-wrap: wrap;
     max-width: none;
+    width: 100%;
+    max-width: 1300px;
   }
 
   .structure__list {
