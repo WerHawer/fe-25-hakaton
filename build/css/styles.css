@@ -951,6 +951,7 @@ body {
 .text-block {
   display: flex;
   flex-direction: column;
+  align-items: center;
   color: #ffffff;
   height: 120px;
   text-align: center;
@@ -971,6 +972,8 @@ body {
   line-height: 22px;
   margin: 0;
   padding: 0;
+  width: 280px;
+  text-align: center;
 }
 
 .text-block__under-header--text {
@@ -1052,12 +1055,18 @@ body {
   text-align: center;
 }
 
-<<<<<<< HEAD
 .footer {
   margin: 0 auto;
   width: 100%;
   position: relative;
-  margin-bottom: 34px;
+}
+
+.footer__logo {
+  width: 100px;
+}
+
+.footer__logo-link {
+  display: block;
 }
 
 .footer__background--top {
@@ -1074,10 +1083,12 @@ body {
 }
 
 .footer__container {
+  margin: 0 auto;
   padding-left: 45px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  align-items: center;
 }
 
 .footer__adress {
@@ -1095,6 +1106,8 @@ body {
 }
 
 .footer__tel-email {
+  margin: 0;
+  bottom: 0;
   display: flex;
   flex-direction: column;
   width: 150px;
@@ -1210,7 +1223,8 @@ body {
   font-weight: bold;
   margin: 0;
   padding: 0;
-=======
+}
+
 @media (min-width: 767px) {
   .info__blockquote::before {
     margin-left: -25px;
@@ -1247,7 +1261,7 @@ body {
     margin-bottom: 0;
   }
 
-  .details:nth-last-child(-n+2) {
+  .details:nth-last-child(-n + 2) {
     margin-bottom: 65px;
   }
 
@@ -1283,6 +1297,13 @@ body {
     justify-content: space-between;
   }
 
+  .footer__adress {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 384px;
+  }
+
   .direction__name {
     font-size: 33px;
     justify-content: flex-start;
@@ -1297,7 +1318,6 @@ body {
     font-size: 33px;
     justify-content: flex-start;
   }
->>>>>>> 3e14c6ebefa3b99eebba28400d7f10f589da04a4
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -1311,22 +1331,6 @@ body {
 
   .nav-bar__arrows--image {
     background-image: url(../../images/Scroll-down@2x.png);
-  }
-
-  .nav-bar-modal__close {
-    background-image: url(../../images/close@2x.png);
-  }
-
-  .footer__telegramm {
-    background-image: url(../../images/telegram@2x.png);
-  }
-
-  .footer__facebook {
-    background-image: url(../../images/facebook@2x.png);
-  }
-
-  .footer__youtube {
-    background-image: url(../../images/youtube@2x.png);
   }
 
   .direction__name::before {
@@ -1367,5 +1371,21 @@ body {
 
   .structure__name::before {
     background-image: url(../../images/layer7@2x.png);
+  }
+
+  .nav-bar-modal__close {
+    background-image: url(../../images/close@2x.png);
+  }
+
+  .footer__telegramm {
+    background-image: url(../../images/telegram@2x.png);
+  }
+
+  .footer__facebook {
+    background-image: url(../../images/facebook@2x.png);
+  }
+
+  .footer__youtube {
+    background-image: url(../../images/youtube@2x.png);
   }
 }
