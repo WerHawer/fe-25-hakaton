@@ -5,9 +5,10 @@
 @import './normalize';
 @import 'helpers/variables.scss';
 @import 'helpers/mixin.scss';
+@import 'components/wrapper.scss';
+@import './base.scss';
 @import 'helpers/media-tablet.scss';
 @import 'helpers/media-descktop.scss';
-@import './base.scss';
 @import 'components/nav-bar.scss';
 @import 'components/info.scss';
 @import 'components/direction.scss';
@@ -17,7 +18,6 @@
 @import 'components/text-block.scss';
 @import 'components/button.scss';
 @import 'components/nav-bar-modal.scss';
-@import 'components/wrapper.scss';
 @import 'components/to-top-button.scss';
 @import 'components/footer.scss';
 @import 'components/orange-button.scss';

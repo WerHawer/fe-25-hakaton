@@ -1,6 +1,4 @@
                                                                                                                  .how-we-do {
-                                                                                                                     width: 80%;
-                                                                                                                     margin: 0 auto;
                                                                                                                      @include nameSection;
                                                                                                                      &__list {
                                                                                                                          display: block;
@@ -9,7 +7,7 @@
                                                                                                                      &__discription {
                                                                                                                          display: block;
                                                                                                                          margin: 0 auto;
-                                                                                                                         width: 70%;
+                                                                                                                         width: 80%;
                                                                                                                          margin-bottom: 30px;
                                                                                                                      }
                                                                                                                      &__planet::before {
