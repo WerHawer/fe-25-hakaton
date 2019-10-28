@@ -28,6 +28,8 @@
     }
     .info {
         &__blockquote {
+            font-size: 18px;
+            line-height: 25px;
             &::before {
                 margin-left: -25px;
                 margin-bottom: -15px;
@@ -37,6 +39,8 @@
             border-left: 3px solid #fcae26;
             padding-left: 25px;
             text-align: left;
+            font-size: 20px;
+            line-height: 28px;
             &::before {
                 content: '';
                 display: none;
@@ -88,6 +92,8 @@
         &__discription {
             width: 40%;
             margin: 0;
+            font-size: 16px;
+            line-height: 22px;
             &:last-child {
                 align-self: flex-start;
                 margin-bottom: 70px;
@@ -121,8 +127,10 @@
             flex-direction: row;
             justify-content: space-between;
             width: 60%;
+            margin-bottom: 0;
             &--city {
                 width: 192px;
+                margin-bottom: 0;
             }
         }
         &__minor-box {
@@ -142,6 +150,7 @@
             align-items: center;
             width: 50%;
             padding-top: 20px;
+            margin-bottom: 0;
         }
         &__top-block {
             display: flex;

@@ -1,9 +1,13 @@
 .info {
     margin-bottom: 60px;
+    &__h {
+        visibility: hidden;
+    }
     &__blockquote {
         width: 100%;
         margin: 0 auto;
-        line-height: 35px;
+        line-height: 20px;
+        font-size: 14px;
         &::before {
             content: '';
             display: block;
@@ -36,6 +40,7 @@
     }
     &__pathos-text {
         font-size: 18px;
+        line-height: 24px;
         color: #ffffff;
         text-align: center;
         &::before {

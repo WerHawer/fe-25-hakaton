@@ -519,10 +519,15 @@ body {
   margin-bottom: 60px;
 }
 
+.info__h {
+  visibility: hidden;
+}
+
 .info__blockquote {
   width: 100%;
   margin: 0 auto;
-  line-height: 35px;
+  line-height: 20px;
+  font-size: 14px;
 }
 
 .info__blockquote::before {
@@ -561,6 +566,7 @@ body {
 
 .info__pathos-text {
   font-size: 18px;
+  line-height: 24px;
   color: #ffffff;
   text-align: center;
 }
@@ -710,6 +716,8 @@ body {
   margin: 0 auto;
   width: 80%;
   margin-bottom: 30px;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 .how-we-do__planet::before {
@@ -1052,6 +1060,7 @@ body {
   flex-direction: column;
   justify-content: space-between;
   color: #9699a6;
+  margin-bottom: 35px;
 }
 
 .footer__adress--city {
@@ -1060,6 +1069,7 @@ body {
   font-size: 14px;
   line-height: 22px;
   font-style: normal;
+  margin-bottom: 30px;
 }
 
 .footer__tel-email {
@@ -1128,10 +1138,10 @@ body {
 .footer__minor-box {
   padding-top: 25px;
   height: 100px;
-  padding-bottom: 25px;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  margin-bottom: 23px;
 }
 
 .footer__minor-links {
@@ -1139,6 +1149,7 @@ body {
   font-family: "Open Sans", sans-serif;
   font-weight: 600;
   font-size: 12px;
+  line-height: 25px;
   display: flex;
   align-items: center;
 }
@@ -1229,6 +1240,11 @@ body {
     width: 440px;
   }
 
+  .info__blockquote {
+    font-size: 18px;
+    line-height: 25px;
+  }
+
   .info__blockquote::before {
     margin-left: -25px;
     margin-bottom: -15px;
@@ -1238,6 +1254,8 @@ body {
     border-left: 3px solid #fcae26;
     padding-left: 25px;
     text-align: left;
+    font-size: 20px;
+    line-height: 28px;
   }
 
   .info__pathos-text::before {
@@ -1293,6 +1311,8 @@ body {
   .how-we-do__discription {
     width: 40%;
     margin: 0;
+    font-size: 16px;
+    line-height: 22px;
   }
 
   .how-we-do__discription:last-child {
@@ -1321,10 +1341,12 @@ body {
     flex-direction: row;
     justify-content: space-between;
     width: 60%;
+    margin-bottom: 0;
   }
 
   .footer__adress--city {
     width: 192px;
+    margin-bottom: 0;
   }
 
   .footer__minor-box {
@@ -1346,6 +1368,7 @@ body {
     align-items: center;
     width: 50%;
     padding-top: 20px;
+    margin-bottom: 0;
   }
 
   .footer__top-block {
@@ -1396,9 +1419,18 @@ body {
     padding-right: 20px;
   }
 
+  .nav-bar {
+    margin-bottom: 116px;
+  }
+
   .info-wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 116px;
+  }
+
+  .info {
+    margin-bottom: 116px;
   }
 
   .info__blockquote {
@@ -1408,6 +1440,8 @@ body {
     margin-left: 0;
     width: 40%;
     order: 2;
+    font-size: 20px;
+    line-height: 35px;
   }
 
   .info__img-block {
@@ -1417,6 +1451,15 @@ body {
   .info__pathos {
     padding-left: 175px;
     padding-right: 200px;
+  }
+
+  .info__pathos-text {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .direction__name {
+    margin-bottom: 68px;
   }
 
   .details-wrapper {
@@ -1443,11 +1486,6 @@ body {
     border: none;
   }
 
-  .details:hover {
-    box-shadow: 3px 5.196px 18px 0px rgba(0, 0, 0, 0.1);
-    transform: scale(1.03);
-  }
-
   .how-we-do {
     width: 100%;
     background-color: #fafafa;
@@ -1455,6 +1493,10 @@ body {
     background-position: center;
     background-size: cover;
     margin-bottom: 115px;
+  }
+
+  .how-we-do__name {
+    margin-bottom: 68px;
   }
 
   .how-we-do__list {
@@ -1479,6 +1521,10 @@ body {
     width: 80%;
     margin: 0 auto;
     padding-top: 115px;
+  }
+
+  .structure__name {
+    margin-bottom: 68px;
   }
 
   .structure__ul {
@@ -1621,11 +1667,6 @@ body {
     border: none;
   }
 
-  .details:hover {
-    box-shadow: 3px 5.196px 18px 0px rgba(0, 0, 0, 0.1);
-    transform: scale(1.03);
-  }
-
   .how-we-do {
     width: 100%;
     background-color: #fafafa;
@@ -1633,6 +1674,7 @@ body {
     background-position: center;
     background-size: cover;
     margin-bottom: 115px;
+    padding-top: 110px;
   }
 
   .how-we-do__list {
@@ -1643,6 +1685,8 @@ body {
     width: 20%;
     margin-right: 6.6%;
     margin-bottom: 68px;
+    font-size: 18px;
+    line-height: 30px;
   }
 
   .how-we-do__discription:nth-child(4) {
@@ -1664,6 +1708,11 @@ body {
     width: 24%;
     min-width: 230px;
     margin-bottom: 114px;
+  }
+
+  .structure__description {
+    font-size: 18px;
+    line-height: 22px;
   }
 
   .button-to-top {
