@@ -10,14 +10,14 @@
         display: block;
     }
     &__close {
-        background-image: url(../../images/close.png);
+        background-image: url(../images/close.png);
         width: 24px;
         height: 24px;
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
         @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-            background-image: url(../../images/close@2x.png);
+            background-image: url(../images/close@2x.png);
         }
     }
     &__list {

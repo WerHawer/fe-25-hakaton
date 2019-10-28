@@ -74,9 +74,9 @@
     .how-we-do {
         &__name {
             &::before {
-                background-image: url(../../images/layer6.png);
+                background-image: url(../images/layer6.png);
                 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-                    background-image: url(../../images/layer6@2x.png);
+                    background-image: url(../images/layer6@2x.png);
                 }
             }
         }
@@ -97,9 +97,9 @@
     .structure {
         &__name {
             &::before {
-                background-image: url(../../images/icon3.png);
+                background-image: url(../images/icon3.png);
                 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-                    background-image: url(../../images/icon3@2x.png);
+                    background-image: url(../images/icon3@2x.png);
                 }
             }
         }

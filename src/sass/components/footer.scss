@@ -74,36 +74,36 @@
             display: block;
             width: 30px;
             height: 30px;
-            background-image: url(../../images/telegram.png);
+            background-image: url(../images/telegram.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: 26px 23px;
             @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-                background-image: url(../../images/telegram@2x.png);
+                background-image: url(../images/telegram@2x.png);
             }
         }
         &__facebook {
             display: block;
             width: 30px;
             height: 30px;
-            background-image: url(../../images/facebook.png);
+            background-image: url(../images/facebook.png);
             background-position: center;
             background-repeat: no-repeat;
             background-size: 13px 23px;
             @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-                background-image: url(../../images/facebook@2x.png);
+                background-image: url(../images/facebook@2x.png);
             }
         }
         &__youtube {
             display: block;
             width: 30px;
             height: 30px;
-            background-image: url(../../images/youtube.png);
+            background-image: url(../images/youtube.png);
             background-size: 22px 16px;
             background-position: center;
             background-repeat: no-repeat;
             @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
-                background-image: url(../../images/youtube@2x.png);
+                background-image: url(../images/youtube@2x.png);
             }
         }
         &__minor-box {

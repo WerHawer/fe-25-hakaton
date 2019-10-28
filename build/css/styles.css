@@ -424,7 +424,7 @@ body {
 
 .nav-bar__background {
   padding-bottom: 40px;
-  background-image: url(../../images/img.jpg);
+  background-image: url(../images/img.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -449,7 +449,7 @@ body {
 }
 
 .nav-bar__burger {
-  background: url(../../images/burger.png);
+  background: url(../images/burger.png);
   width: 28px;
   height: 19px;
   background-repeat: no-repeat;
@@ -477,7 +477,7 @@ body {
 }
 
 .nav-bar__arrows--image {
-  background-image: url(../../images/Scroll-down.png);
+  background-image: url(../images/Scroll-down.png);
   background-size: cover;
   background-position: center;
   width: 13px;
@@ -530,7 +530,7 @@ body {
   display: block;
   width: 17px;
   height: 13px;
-  background: url(../../images/comas.png);
+  background: url(../images/comas.png);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -598,7 +598,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-image: url(../../images/layer7.png);
+  background-image: url(../images/layer7.png);
   background-color: #fcae26;
   background-repeat: no-repeat;
   background-position: center;
@@ -656,7 +656,7 @@ body {
   display: block;
   width: 19px;
   height: 13px;
-  background: url(../../images/arrow.png);
+  background: url(../images/arrow.png);
 }
 
 .details:hover {
@@ -670,7 +670,7 @@ body {
 }
 
 .details:hover .details__block-years::after {
-  background: url(../../images/arrow-hover.png);
+  background: url(../images/arrow-hover.png);
 }
 
 .how-we-do__name {
@@ -692,7 +692,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-image: url(../../images/layer7.png);
+  background-image: url(../images/layer7.png);
   background-color: #fcae26;
   background-repeat: no-repeat;
   background-position: center;
@@ -721,7 +721,7 @@ body {
   background-position: center;
   border-radius: 50%;
   margin-bottom: 20px;
-  background-image: url(../../images/1.png);
+  background-image: url(../images/1.png);
   background-color: #feefd4;
   background-size: 34px 34px;
 }
@@ -735,7 +735,7 @@ body {
   background-position: center;
   border-radius: 50%;
   margin-bottom: 20px;
-  background-image: url(../../images/2.png);
+  background-image: url(../images/2.png);
   background-color: #ffe0d6;
   background-size: 34px 34px;
 }
@@ -749,7 +749,7 @@ body {
   background-position: center;
   border-radius: 50%;
   margin-bottom: 20px;
-  background-image: url(../../images/3.png);
+  background-image: url(../images/3.png);
   background-color: #e6dcf9;
   background-size: 26px 37px;
 }
@@ -763,7 +763,7 @@ body {
   background-position: center;
   border-radius: 50%;
   margin-bottom: 20px;
-  background-image: url(../../images/4.png);
+  background-image: url(../images/4.png);
   background-color: #cceeec;
   background-size: 37px 36px;
 }
@@ -777,7 +777,7 @@ body {
   background-position: center;
   border-radius: 50%;
   margin-bottom: 20px;
-  background-image: url(../../images/5.png);
+  background-image: url(../images/5.png);
   background-color: #e6dcf9;
   background-size: 34px 34px;
 }
@@ -791,7 +791,7 @@ body {
   background-position: center;
   border-radius: 50%;
   margin-bottom: 20px;
-  background-image: url(../../images/6.png);
+  background-image: url(../images/6.png);
   background-color: #ffe0d6;
   background-size: 35px 35px;
 }
@@ -805,7 +805,7 @@ body {
   background-position: center;
   border-radius: 50%;
   margin-bottom: 20px;
-  background-image: url(../../images/7.png);
+  background-image: url(../images/7.png);
   background-color: #feefd4;
   background-size: 34px 34px;
 }
@@ -829,7 +829,7 @@ body {
   width: 30px;
   height: 30px;
   border-radius: 50%;
-  background-image: url(../../images/layer7.png);
+  background-image: url(../images/layer7.png);
   background-color: #fcae26;
   background-repeat: no-repeat;
   background-position: center;
@@ -957,7 +957,7 @@ body {
 }
 
 .nav-bar-modal__close {
-  background-image: url(../../images/close.png);
+  background-image: url(../images/close.png);
   width: 24px;
   height: 24px;
   background-size: cover;
@@ -1004,7 +1004,7 @@ body {
   height: 60px;
   border-radius: 50%;
   background-color: #333333;
-  background-image: url(../../images/arrow-to-top.png);
+  background-image: url(../images/arrow-to-top.png);
   background-position: center;
   background-repeat: no-repeat;
   box-shadow: 0px 7px 12px 0px rgba(51, 51, 51, 0.5);
@@ -1099,7 +1099,7 @@ body {
   display: block;
   width: 30px;
   height: 30px;
-  background-image: url(../../images/telegram.png);
+  background-image: url(../images/telegram.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 26px 23px;
@@ -1109,7 +1109,7 @@ body {
   display: block;
   width: 30px;
   height: 30px;
-  background-image: url(../../images/facebook.png);
+  background-image: url(../images/facebook.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: 13px 23px;
@@ -1119,7 +1119,7 @@ body {
   display: block;
   width: 30px;
   height: 30px;
-  background-image: url(../../images/youtube.png);
+  background-image: url(../images/youtube.png);
   background-size: 22px 16px;
   background-position: center;
   background-repeat: no-repeat;
@@ -1281,7 +1281,7 @@ body {
   }
 
   .how-we-do__name::before {
-    background-image: url(../../images/layer6.png);
+    background-image: url(../images/layer6.png);
   }
 
   .how-we-do__list {
@@ -1301,7 +1301,7 @@ body {
   }
 
   .structure__name::before {
-    background-image: url(../../images/icon3.png);
+    background-image: url(../images/icon3.png);
   }
 
   .structure__ul {
@@ -1381,11 +1381,11 @@ body {
 
 @media (min-width: 767px) and (-webkit-min-device-pixel-ratio: 2), (min-width: 767px) and (min-resolution: 192dpi) {
   .how-we-do__name::before {
-    background-image: url(../../images/layer6@2x.png);
+    background-image: url(../images/layer6@2x.png);
   }
 
   .structure__name::before {
-    background-image: url(../../images/icon3@2x.png);
+    background-image: url(../images/icon3@2x.png);
   }
 }
 
@@ -1451,7 +1451,7 @@ body {
   .how-we-do {
     width: 100%;
     background-color: #fafafa;
-    background-image: url(../../images/BG.jpg);
+    background-image: url(../images/BG.jpg);
     background-position: center;
     background-size: cover;
     margin-bottom: 115px;
@@ -1629,7 +1629,7 @@ body {
   .how-we-do {
     width: 100%;
     background-color: #fafafa;
-    background-image: url(../../images/BG.jpg);
+    background-image: url(../images/BG.jpg);
     background-position: center;
     background-size: cover;
     margin-bottom: 115px;
@@ -1673,70 +1673,70 @@ body {
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
   .nav-bar__background {
-    background-image: url(../../images/img@2x.jpg);
+    background-image: url(../images/img@2x.jpg);
   }
 
   .nav-bar__burger {
-    background-image: url(../../images/burger@2x.png);
+    background-image: url(../images/burger@2x.png);
   }
 
   .nav-bar__arrows--image {
-    background-image: url(../../images/Scroll-down@2x.png);
+    background-image: url(../images/Scroll-down@2x.png);
   }
 
   .direction__name::before {
-    background-image: url(../../images/layer7@2x.png);
+    background-image: url(../images/layer7@2x.png);
   }
 
   .how-we-do__name::before {
-    background-image: url(../../images/layer7@2x.png);
+    background-image: url(../images/layer7@2x.png);
   }
 
   .how-we-do__planet::before {
-    background-image: url(../../images/1@2x.png);
+    background-image: url(../images/1@2x.png);
   }
 
   .how-we-do__hand::before {
-    background-image: url(../../images/2@2x.png);
+    background-image: url(../images/2@2x.png);
   }
 
   .how-we-do__peace::before {
-    background-image: url(../../images/3@2x.png);
+    background-image: url(../images/3@2x.png);
   }
 
   .how-we-do__money::before {
-    background-image: url(../../images/4@2x.png);
+    background-image: url(../images/4@2x.png);
   }
 
   .how-we-do__lamp::before {
-    background-image: url(../../images/5@2x.png);
+    background-image: url(../images/5@2x.png);
   }
 
   .how-we-do__paper::before {
-    background-image: url(../../images/6@2x.png);
+    background-image: url(../images/6@2x.png);
   }
 
   .how-we-do__goal::before {
-    background-image: url(../../images/7@2x.png);
+    background-image: url(../images/7@2x.png);
   }
 
   .structure__name::before {
-    background-image: url(../../images/layer7@2x.png);
+    background-image: url(../images/layer7@2x.png);
   }
 
   .nav-bar-modal__close {
-    background-image: url(../../images/close@2x.png);
+    background-image: url(../images/close@2x.png);
   }
 
   .footer__telegramm {
-    background-image: url(../../images/telegram@2x.png);
+    background-image: url(../images/telegram@2x.png);
   }
 
   .footer__facebook {
-    background-image: url(../../images/facebook@2x.png);
+    background-image: url(../images/facebook@2x.png);
   }
 
   .footer__youtube {
-    background-image: url(../../images/youtube@2x.png);
+    background-image: url(../images/youtube@2x.png);
   }
 }
