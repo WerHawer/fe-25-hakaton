@@ -199,6 +199,9 @@
     .details {
         width: 25%;
         min-width: 275px;
+        &__discription {
+            line-height: 27px;
+        }
         &:nth-last-child(-n+2) {
             margin-bottom: 110px;
         }
